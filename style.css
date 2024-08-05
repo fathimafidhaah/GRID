@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(191, 213, 213);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    padding: 25px;
+}
+.first{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(105, 96, 180);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.top{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.top img{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.top p{
+    color: rgb(232, 231, 231);
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.content h3{
+    font-size: medium;
+    margin-top: 25px;
+    color: white;
+}
+.content p{
+    font-size: small;
+    margin-top: 18px;
+    color: rgb(238, 237, 237);
+}
+.second{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: rgb(75, 75, 79);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.third{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.start{
+    display: flex;
+}
+.third img{
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+.start p{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.end h3{
+    margin-top: 25px;
+}
+.end p{
+    margin-top: 18px;
+
+}
+.fourth{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.fourth p{
+    color: grey;
+}
+.fourth h3{
+    color: black;
+} 
+.fifth{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: rgb(41, 40, 40);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
